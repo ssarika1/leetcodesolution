@@ -1,0 +1,13 @@
+class Solution:
+    def getConcatenation(self, nums: List[int]) -> List[int]:
+        # Solution 1
+        ans=[]
+        for i in nums:
+            ans.append(i)
+        ans+=nums
+        return ans
+        
+        #Solution 2
+        list1=nums+nums
+        return list1
+        
