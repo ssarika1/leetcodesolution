@@ -10,4 +10,4 @@ class Solution:
         #Solution 2
         list1=nums+nums
         return list1
-        
+    
